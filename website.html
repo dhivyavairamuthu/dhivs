@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Mind - Offered Courses</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            
+            margin-bottom: 10px;
+            color: blueviolet;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: none;
+            margin-top: 20px;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+        }
+        p{
+            color:rgb(49, 45, 46);
+            
+           
+        }
+        h1,ul{
+            color: #810250;
+           
+
+        }
+        h1{
+            color: #3c7c5c;
+            
+            
+        }
+    </style>
+    <script>
+        function showContent(courseId) {
+            // Hide all content sections
+            var contents = document.querySelectorAll('.content');
+            contents.forEach(function(content) {
+                content.style.display = 'none';
+            });
+
+            // Show the selected content section
+            document.getElementById(courseId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+
+<header>
+    <h1>Master Mind</h1><hr>
+</header>
+
+
+
+<section>
+    <h2>Offered Courses</h2>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Android</li>
+        <li>Web Development & Design</li>
+        <li>AI & DS</li>
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
+        <li>OpenCV</li>
+        <li>DevOps Engineer</li>
+        <li>Cloud Computing</li>
+        <li>Generic AI</li>
+        <li>Data Analytics</li>
+        <li>Full Stack Web Development</li>
+    </ul>
+    <ul>
+        <h1><li>C & C++</li></h1>
+        <div class="course-list">
+            <div class="course-item">
+               
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+                <p>C, C++... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+                <p>C, C++... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+                
+                <img src="c ,c++.jfif" alt="C, C++ Image">
+                <br><a href="https://www.geeksforgeeks.org/difference-between-c-and-c/">Learn More about C, C++</a>
+            </div>
+        <h1><li>JAVA</a></li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="java.png" alt="Java Image">
+            <br><a href="https://www.java.com/en/">Learn More about Java</a>
+        </div>
+        
+        
+        <h1><li>PYTHON</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="python.png" alt="img">
+            <br><a href="https://www.python.org/">Learn More about Java</a>
+        </div>
+        
+        <h1><li>ANDROID</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="android.jfif" alt="img">
+            <br><a href="https://www.android.com/intl/en_in/">Learn More about Java</a>
+        </div>
+
+        <h1><li>Web Development & Design</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="web.jfif" alt="img">
+            <br><a href="https://thinkwebhub.com/best-web-development-company-in-india/?gclid=CjwKCAjwxNW2BhAkEiwA24Cm9Ma_Y_WgxvxGwyZHdolESY0dte2wQRTaM5XLkiM8mYTGbQ0b4uD-9BoCvywQAvD_BwE">Learn More about Java</a>
+        </div>
+
+        <h1><li>AI & DS</li></h1>
+        <div class="course-item">
+           
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="ai and ds.jfif" alt="img">
+            <br><a href="https://pubsonline.informs.org/magazine/analytics?utm_term=ai%20and%20data%20science&utm_campaign=Analytics+magazine&utm_source=adwords&utm_medium=ppc&hsa_tgt=kwd-359624386541&hsa_grp=130118060346&hsa_src=g&hsa_net=adwords&hsa_mt=b&hsa_ver=3&hsa_ad=566414032502&hsa_acc=6773547382&hsa_kw=ai%20and%20data%20science&hsa_cam=15456064506&gad_source=1&gclid=CjwKCAjwxNW2BhAkEiwA24Cm9DXGluulBr8m6i7TPfqpVVOV547sJVRLgIl6RsvpRxkY1yl2KH4ODRoCQN0QAvD_BwE">Learn More about Java</a>
+        </div>
+        <h1><li>Machine Learning</li></h1>
+        <div class="course-item">
+           
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="ml.jpeg" alt="img">
+            <br><a href="https://www.ibm.com/topics/machine-learning">Learn More about Java</a>
+        </div>
+        <h1><li>Deep Learning</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="deep lear.jfif" alt="img">
+            <br><a href="https://aws.amazon.com/what-is/deep-learning/#:~:text=Deep%20learning%20is%20a%20method,inspired%20by%20the%20human%20brain.">Learn More about Java</a>
+        </div>
+        <h1><li>OpenCV</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="open cv.jfif" alt="img">
+            <br><a href="https://opencv.org/">Learn More about Java</a>
+        </div>
+        <h1><li>DevOps Engineer</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="devops.jfif" alt="img">
+            <br><a href="https://www.redhat.com/en/topics/devops/devops-engineer#:~:text=A%20DevOps%20engineer%20introduces%20processes,drive%20adoption%20within%20your%20company.">Learn More about Java</a>
+        </div>
+        <h1><li>Cloud Computing</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="cc.jpg" alt="img">
+            <br><a href="https://azure.microsoft.com/en-in/resources/cloud-computing-dictionary/what-is-cloud-computing#:~:text=Simply%20put%2C%20cloud%20computing%20is,resources%2C%20and%20economies%20of%20scale.">Learn More about Java</a>
+        </div>
+        <h1><li>Generic AI</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="gen ai.jfif" alt="img">
+            <br><a href="https://aws.amazon.com/ai/generative-ai/?gclid=CjwKCAjwxNW2BhAkEiwA24Cm9J5WRO6vA05F2NvYjNWu5UbZyBRJE-kk9IVEx7gtYqvg9XRTVE5X7BoClzkQAvD_BwE&trk=b43ff72e-7784-46d4-bb34-055e91e6846e&sc_channel=ps&ef_id=CjwKCAjwxNW2BhAkEiwA24Cm9J5WRO6vA05F2NvYjNWu5UbZyBRJE-kk9IVEx7gtYqvg9XRTVE5X7BoClzkQAvD_BwE:G:s&s_kwcid=AL!4422!3!686122502854!e!!g!!gen%20ai!20894978085!158309242298">Learn More about Java</a>
+        </div>
+        <h1><li>Data Analytics</li></h1>
+        <div class="course-item">
+            
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="data anal.jpg" alt="img">
+            <br><a href="https://datajourney.akvo.org/blog/the-four-types-of-data-analysis?utm_term=data%20science%20analysis&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=7028243667&hsa_cam=2077694068&hsa_grp=133193406680&hsa_ad=566786827399&hsa_src=g&hsa_tgt=kwd-297425448618&hsa_kw=data%20science%20analysis&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwxNW2BhAkEiwA24Cm9CkHY56lNwjTpmtDUW_lJtEmhmr4tvBhf-OzFoZMfho7mwwiRM9UGhoC4jMQAvD_BwE&utm_term=data%20science%20analysis&utm_campaign=DataJourney-+Blog&utm_source=adwords&utm_medium=ppc&hsa_acc=7028243667&hsa_cam=2077694068&hsa_grp=133193406680&hsa_ad=566786827399&hsa_src=g&hsa_tgt=kwd-297425448618&hsa_kw=data%20science%20analysis&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1">Learn More about Java</a>
+        </div>
+        <h1><li>Full Stack Web Development</li></h1>
+        <li>python Web Development</li>
+        <li>java Stack Web Development</li>
+        <div class="course-item">
+           
+            <p>Paragraph 1 content about Java... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <p>Paragraph 2 content about Java... Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <p>Paragraph 3 content about Java... Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+            <img src="fswdf.jpg" alt="img">
+            <br><a href="https://www.geeksforgeeks.org/what-is-full-stack-development/">Learn More about Java</a>
+        </div>
+    </ul>
+</section>
+
+
+</body>
+</html>
+
+
